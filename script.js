@@ -24,13 +24,13 @@ function computerChoiceFunc(){
 function scissorsOption(){
     computerChoiceFunc();
     if (computerChoice===2) {
-        result.innerHTML="You Win!!!";
+        result.innerHTML="YOU WIN!!!";
     }
     else if(computerChoice===1){
-        result.innerHTML="You lost";
+        result.innerHTML="YOU LOST    :(";
     }
     else{
-        result.innerHTML="Draw!!";
+        result.innerHTML="DRAW";
     }
    console.log("You chose scissors");
 }
@@ -38,13 +38,13 @@ function scissorsOption(){
 function rockOption(){
     computerChoiceFunc();
     if (computerChoice===3) {
-        result.innerHTML="You Win!!!";
+        result.innerHTML="YOU WIN!!!";
     }
     else if(computerChoice===2){
-        result.innerHTML="You lost";
+        result.innerHTML="YOU LOST  :(";
     }
     else{
-        result.innerHTML="Draw!!";
+        result.innerHTML="DRAW";
     }
     console.log("You chose rock");
 }
@@ -53,16 +53,16 @@ function rockOption(){
 function paperOption(){
     computerChoiceFunc();
     if (computerChoice===1) {
-        result.innerHTML="You Win!!!";
+        result.innerHTML="YOU WIN!!!";
     }
     else if(computerChoice===3){
-        result.innerHTML="You lost";
+        result.innerHTML="YOU LOST :(";
     }
     else{
-        result.innerHTML="Draw!!";
+        result.innerHTML="Draw";
     }
     console.log("You chose paper");
 }
 
 
-scissorsOption()
+scissorsOption();

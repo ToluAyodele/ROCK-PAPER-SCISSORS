@@ -37,7 +37,7 @@ main div{
 
 main div:hover{
     cursor: pointer;
-    background-color: rgb(216, 134, 27);
+    background-color: rgb(136, 82, 13);
 }
 
 /*This ends the main container*/
@@ -45,4 +45,10 @@ main div:hover{
 footer div{
     margin: 20px;
     text-align: center;
+
+}
+
+#result-container{
+    font-size: 70px;
+    font-style: italic;
 }
